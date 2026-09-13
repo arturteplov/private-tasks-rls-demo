@@ -1,0 +1,81 @@
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #666;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  background: white;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 11px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+button {
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 7px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary {
+  background: #666;
+}
+
+.danger {
+  background: #a22;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.userBar,
+.tasksHeader,
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.userId,
+.owner {
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  color: #777;
+}
+
+.task {
+  border-top: 1px solid #eee;
+  padding: 14px 0;
+}
